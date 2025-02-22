@@ -90,7 +90,7 @@ Contribuições são sempre bem-vindas! Caso queira colaborar, faça um **fork**
 Este projeto é de autoria dos estudantes desenvolvedores como parte do Trabalho de Conclusão de Curso.
 Para contato e dúvidas, no meu perfil tem meus meios de contato.
 
-   ```bash
+   ```markdown
   https://github.com/SamukaSantos-DEV/
    ```
 
