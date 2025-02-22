@@ -94,6 +94,9 @@ Para contato e dúvidas, no meu perfil tem meus meios de contato.
   https://github.com/SamukaSantos-DEV/
    ```
 
+[Visite o repositório do GULOSEIMA](https://github.com/SeuUsuario/Guloseima)
+
+
 Desenvolvido com dedicação para melhorar a experiência de estudantes e gestores. ❤️
 
 
