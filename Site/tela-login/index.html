@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>GULOSEIMA - Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../Imagens/GULOSEIMA LOGO NOVO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            background: linear-gradient(145deg, #ffffff, #ffe9c7);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+
+        .entrar {
+            font-family: monospace;
+            background: linear-gradient(0deg, #f29446 0%, #ed842b 50%, #E26A05 100%);
+            color: #FFF;
+            border: none;
+            border-radius: 8px;
+            width: 100%;
+            height: 45px;
+            transition: .3s;
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 40%;
+        }
+
+        .entrar:hover {
+            box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+        }
+
+        .toggle-password {
+            background: none;
+            border: none;
+            position: absolute;
+            right: 9%;
+            top: 37%;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .toggle-password:focus {
+            outline: none;
+        }
+
+        .toggle-password i {
+            font-size: 1.2em;
+        }
+
+        .all {
+            height: 640px;
+        }
+
+        #txtimg {
+
+            font-family: 'Franklin Gothic Medium';
+            font-size: 31px;
+            position: absolute;
+            text-transform: uppercase;
+            text-align: justify;
+            width: 230px;
+            font-weight: bold;
+            text-align: left;
+            color: white;
+            margin: 25px 0px 0px 25px;
+        }
+
+        #txtimg2 {
+            position: absolute;
+            margin-top: 615px;
+            color: white;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+
+        .tituloLogin {
+            font-size: 140%;
+            font-weight: bolder;
+            margin-top: 22px;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: -5px;
+        }
+
+        .cxdt {
+            transition: 1s;
+            margin: 4px -3px 0px 0px;
+            padding: 0px 12px;
+            width: 100%;
+            height: 43px;
+            background-color: #cacaca;
+            border: 0px;
+            border-radius: 7px;
+        }
+
+        .cxdt:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+            border-radius: 7px;
+            border: 0px;
+        }
+
+        .cxdt::placeholder {
+            color: #949494;
+            opacity: 1;
+            font-size: 13px;
+        }
+
+        .motivacional {
+            font-size: 13px;
+        }
+
+        .qr-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: url('https://cdn-icons-png.flaticon.com/128/3955/3955024.png') no-repeat center;       
+            background-size: contain;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .qr-button:hover {
+            transform: scale(1.1);
+        }
+
+        .qr-code {
+            position: fixed;
+            right: 90px;
+            bottom: 40px;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease-in;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .qr-button:hover+.qr-code {
+            width: 240px;
+            height: 240px;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="qr-button"></button>
+
+    <div class="qr-code">
+        <img src="../Imagens/QR-Code Guloseima.png" alt="QR Code"
+            style="width: 100%; height: 100%; border-radius: 15px; pointer-events: none; user-select: none;">
+    </div>
+
+
+    <div class="row" style="animation: pulse;animation-duration: 1s;">
+        <div class="col-md-6" style=" box-shadow: rgba(0, 0, 0, 0.35) -5px 5px 15px; border-radius: 15px ">
+            <div class="all">
+                <p id="txtimg">Sabores que Conquistam Seu Paladar</p>
+                <p id="txtimg2">Website por GULOSEIMA</p>
+                <img class="devian" src="../Imagens/login.jpg" width="340" height="662px"
+                    style="pointer-events: none; user-select: none; margin-left: -20px; border-radius: 15px 0px 0px 15px;">
+            </div>
+        </div>
+        <div class="col-md-6" style="text-align: left; padding-left:25px; padding-right: 25px; width: 360px; background-color: white; box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px; 
+            border-radius: 0px 15px 15px 0px; transform: translateX(-20px);">
+            <div class="all">
+                <p class="tituloLogin">Acesso Administrativo</P>
+                <form action="login.php" method="POST" class="login-form">
+                    <label for="email">Nome de Usuario:</label></br>
+                    <input class="cxdt" type="text" name="nome" placeholder="Usuário" required></br>
+                    <label for="password_field" class="input_label"
+                        style="padding-left: 5px; color: #ed862b; font-weight: 600; font-size: smaller; margin-top: 0px;">*Campo
+                        Obrigatório</label></br>
+                    <label for="email">Senha:</label></br>
+                    <input class="cxdt" type="password" name="senha" id="password" min="8" required
+                        placeholder="********"></br>
+                    <button type="button" id="togglePassword" class="toggle-password">
+                        <i class="fas fa-solid fa-eye"></i>
+                    </button>
+                    <label for="password_field" class="input_label"
+                        style="padding-left: 5px; color: #ed862b; font-weight: 600; font-size: smaller;margin-top: 0px;">*Campo
+                        Obrigatório</label>
+                    <div class="form-group">
+                        <button class="entrar">ENTRAR</button>
+                    </div>
+                </form>
+                <hr color="gray">
+                <p class="motivacional">Flavors you love, just a click away with Guloseima.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+        togglePassword.addEventListener('click', function () {
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.querySelector('i').classList.toggle('fa-eye');
+            this.querySelector('i').classList.toggle('fa-eye-slash');
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const firstInput = document.querySelector('input[name="nome"]');
+            if (firstInput) {
+                firstInput.focus();
+            }
+        });
+    </script>
+
+</body>
+
+</html>
