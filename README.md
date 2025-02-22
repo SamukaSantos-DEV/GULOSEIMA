@@ -61,19 +61,23 @@ O **GULOSEIMA** nasceu com o propósito de solucionar problemas de acessibilidad
 ### Website Administrativo
 1. Clone o repositório do website:
    ```bash
-   git clone https://github.com/SeuUsuario/Guloseima-Web.git
+   git clone https://github.com/SamukaSantos-DEV/GULOSEIMA/tree/main/Site
    ```
 2. Configure o ambiente local (ex: servidor XAMPP ou Docker).
-3. Inicie o servidor e acesse o website no navegador.
+3. Sobe o banco de dados guloseima.sql
+4. Inicie o servidor e acesse o website no navegador.
 
 ## 🛠 Tecnologias Utilizadas
 
 - **Aplicativo Mobile:**
-  - Framework Flutter
-  - Linguagem Dart
+  - Framework React Native
+  - Linguagem JavaScript e TypeScript
+    
 - **Website Administrativo:**
   - HTML, CSS e JavaScript
-  - Framework Laravel (PHP)
+  - PHP
+  - API de gráficos
+    
 - **Banco de Dados:**
   - MySQL
 
@@ -84,8 +88,11 @@ Contribuições são sempre bem-vindas! Caso queira colaborar, faça um **fork**
 ## 📄 Licença
 
 Este projeto é de autoria dos estudantes desenvolvedores como parte do Trabalho de Conclusão de Curso.
+Para contato e dúvidas, no meu perfil tem meus meios de contato.
 
-
+   ```bash
+  https://github.com/SamukaSantos-DEV/
+   ```
 
 Desenvolvido com dedicação para melhorar a experiência de estudantes e gestores. ❤️
 
