@@ -52,10 +52,11 @@ O **GULOSEIMA** nasceu com o propósito de solucionar problemas de acessibilidad
 ### Aplicativo Mobile
 1. Faça o download do repositório:
    ```bash
-   git clone https://github.com/SamukeSantos-DEV/
+   git clone https://github.com/SamukaSantos-DEV/GULOSEIMA/tree/main/App%20Guloseima
    ```
 2. Importe o projeto em sua IDE favorita (Android Studio ou Visual Studio Code).
-3. Execute o aplicativo em um dispositivo físico ou emulador.
+3. Baixe a APIReact e cole no servidor (testado e funcional no XAMPP), e no Prompt de rode o servidor de envio-email e envio-sugestão
+4. Execute o aplicativo em um dispositivo físico ou emulador.
 
 ### Website Administrativo
 1. Clone o repositório do website:
