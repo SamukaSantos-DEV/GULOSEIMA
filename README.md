@@ -93,6 +93,7 @@ Para contato e dúvidas, no meu perfil tem meus meios de contato.
 
 
 [PERFIL PESSOAL](https://github.com/SamukaSantos-DEV/)
+[INSTAGRAM GULOSEIMA](https://www.instagram.com/guloseima_etec/)
 
 
 Desenvolvido com dedicação para melhorar a experiência de estudantes e gestores. ❤️
