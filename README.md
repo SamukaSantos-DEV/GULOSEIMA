@@ -90,11 +90,8 @@ Contribuições são sempre bem-vindas! Caso queira colaborar, faça um **fork**
 Este projeto é de autoria dos estudantes desenvolvedores como parte do Trabalho de Conclusão de Curso.
 Para contato e dúvidas, no meu perfil tem meus meios de contato.
 
-   ```markdown
-  https://github.com/SamukaSantos-DEV/
-   ```
 
-[Visite o repositório do GULOSEIMA](https://github.com/SeuUsuario/Guloseima)
+[PERFIL PESSOAL](https://github.com/SamukaSantos-DEV/)
 
 
 Desenvolvido com dedicação para melhorar a experiência de estudantes e gestores. ❤️
