@@ -42,7 +42,7 @@ O **GULOSEIMA** nasceu com o propósito de solucionar problemas de acessibilidad
 ### Website Administrativo
 
 ![image](https://github.com/user-attachments/assets/3cf06fcb-080e-4113-b886-1adb8b98f8f4)
-![image](https://github.com/user-attachments/assets/01e3b3d9-cdb3-41e5-ba09-10108cfe1424)
+![image](https://github.com/user-attachments/assets/fd17cb8c-e666-4f03-b937-e0b3feed5ef1)
 ![image](https://github.com/user-attachments/assets/d5033adc-15f9-45d7-9b42-4511c6fc7700)
 
 
